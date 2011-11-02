@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90F4F4BB1459DAE000DB2B4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F4BA1459DAE000DB2B4E /* UIKit.framework */; };
+		90F4F4C71459DAE000DB2B4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90F4F4C51459DAE000DB2B4E /* InfoPlist.strings */; };
+		90F4F4C91459DAE000DB2B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F4C81459DAE000DB2B4E /* main.m */; };
+		90F4F4CD1459DAE000DB2B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F4CC1459DAE000DB2B4E /* AppDelegate.m */; };
+		90F4F4D01459DAE000DB2B4E /* ArcReferenceProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F4CE1459DAE000DB2B4E /* ArcReferenceProject.xcdatamodeld */; };
+		90F4F4FD1459DB1C00DB2B4E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F4F61459DB1C00DB2B4E /* CFNetwork.framework */; };
+		90F4F4FE1459DB1C00DB2B4E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F4F71459DB1C00DB2B4E /* CoreFoundation.framework */; };
+		90F4F4FF1459DB1C00DB2B4E /* ASIHTTPRequestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F4F81459DB1C00DB2B4E /* ASIHTTPRequestIOS.framework */; };
+		90F4F5001459DB1C00DB2B4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F4F91459DB1C00DB2B4E /* UIKit.framework */; };
+		90F4F5011459DB1C00DB2B4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F4FA1459DB1C00DB2B4E /* Foundation.framework */; };
+		90F4F5021459DB1C00DB2B4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F4FB1459DB1C00DB2B4E /* CoreGraphics.framework */; };
+		90F4F5031459DB1C00DB2B4E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F4FC1459DB1C00DB2B4E /* CoreData.framework */; };
+		90F4F5061459DBB400DB2B4E /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F5051459DBB400DB2B4E /* libz.1.2.5.dylib */; };
+		90F4F5081459DC6D00DB2B4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F5071459DC6D00DB2B4E /* SystemConfiguration.framework */; };
+		90F4F5101459DFB200DB2B4E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F4F50F1459DFB200DB2B4E /* MobileCoreServices.framework */; };
+		90F4F52A1459E1FB00DB2B4E /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F5131459E1FB00DB2B4E /* Article.m */; };
+		90F4F52B1459E1FB00DB2B4E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F5141459E1FB00DB2B4E /* DataModel.xcdatamodeld */; };
+		90F4F52C1459E1FB00DB2B4E /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F5171459E1FB00DB2B4E /* Image.m */; };
+		90F4F52D1459E1FB00DB2B4E /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F5191459E1FB00DB2B4E /* Media.m */; };
+		90F4F52E1459E1FB00DB2B4E /* MSCoreDataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F51B1459E1FB00DB2B4E /* MSCoreDataInterface.m */; };
+		90F4F52F1459E1FC00DB2B4E /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F51D1459E1FB00DB2B4E /* Section.m */; };
+		90F4F5301459E1FC00DB2B4E /* SectionOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F51F1459E1FB00DB2B4E /* SectionOrder.m */; };
+		90F4F5311459E1FC00DB2B4E /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F5211459E1FB00DB2B4E /* Video.m */; };
+		90F4F5321459E1FC00DB2B4E /* MTStubParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F5241459E1FB00DB2B4E /* MTStubParser.m */; };
+		90F4F5331459E1FC00DB2B4E /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F5261459E1FB00DB2B4E /* XMLReader.m */; };
+		90F4F5341459E1FC00DB2B4E /* MTFeedDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F4F5291459E1FB00DB2B4E /* MTFeedDownloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90F4F4B61459DAE000DB2B4E /* ArcReferenceProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcReferenceProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F4F4BA1459DAE000DB2B4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90F4F4C41459DAE000DB2B4E /* ArcReferenceProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArcReferenceProject-Info.plist"; sourceTree = "<group>"; };
+		90F4F4C61459DAE000DB2B4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90F4F4C81459DAE000DB2B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90F4F4CA1459DAE000DB2B4E /* ArcReferenceProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArcReferenceProject-Prefix.pch"; sourceTree = "<group>"; };
+		90F4F4CB1459DAE000DB2B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90F4F4CC1459DAE000DB2B4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90F4F4CF1459DAE000DB2B4E /* ArcReferenceProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArcReferenceProject.xcdatamodel; sourceTree = "<group>"; };
+		90F4F4F61459DB1C00DB2B4E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		90F4F4F71459DB1C00DB2B4E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		90F4F4F81459DB1C00DB2B4E /* ASIHTTPRequestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ASIHTTPRequestIOS.framework; path = "../Current Projects/Mario/ios/Components/CommonFrameworks/ASIHTTPRequestIOS.framework"; sourceTree = "<group>"; };
+		90F4F4F91459DB1C00DB2B4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90F4F4FA1459DB1C00DB2B4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90F4F4FB1459DB1C00DB2B4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90F4F4FC1459DB1C00DB2B4E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		90F4F5041459DB4200DB2B4E /* LogMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogMacro.h; sourceTree = "<group>"; };
+		90F4F5051459DBB400DB2B4E /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		90F4F5071459DC6D00DB2B4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		90F4F50F1459DFB200DB2B4E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		90F4F5121459E1FB00DB2B4E /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		90F4F5131459E1FB00DB2B4E /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		90F4F5151459E1FB00DB2B4E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		90F4F5161459E1FB00DB2B4E /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		90F4F5171459E1FB00DB2B4E /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		90F4F5181459E1FB00DB2B4E /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		90F4F5191459E1FB00DB2B4E /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		90F4F51A1459E1FB00DB2B4E /* MSCoreDataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCoreDataInterface.h; sourceTree = "<group>"; };
+		90F4F51B1459E1FB00DB2B4E /* MSCoreDataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCoreDataInterface.m; sourceTree = "<group>"; };
+		90F4F51C1459E1FB00DB2B4E /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		90F4F51D1459E1FB00DB2B4E /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		90F4F51E1459E1FB00DB2B4E /* SectionOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionOrder.h; sourceTree = "<group>"; };
+		90F4F51F1459E1FB00DB2B4E /* SectionOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionOrder.m; sourceTree = "<group>"; };
+		90F4F5201459E1FB00DB2B4E /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		90F4F5211459E1FB00DB2B4E /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		90F4F5231459E1FB00DB2B4E /* MTStubParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStubParser.h; sourceTree = "<group>"; };
+		90F4F5241459E1FB00DB2B4E /* MTStubParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStubParser.m; sourceTree = "<group>"; };
+		90F4F5251459E1FB00DB2B4E /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		90F4F5261459E1FB00DB2B4E /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		90F4F5281459E1FB00DB2B4E /* MTFeedDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFeedDownloader.h; sourceTree = "<group>"; };
+		90F4F5291459E1FB00DB2B4E /* MTFeedDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFeedDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90F4F4B31459DAE000DB2B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F4F5081459DC6D00DB2B4E /* SystemConfiguration.framework in Frameworks */,
+				90F4F5061459DBB400DB2B4E /* libz.1.2.5.dylib in Frameworks */,
+				90F4F4BB1459DAE000DB2B4E /* UIKit.framework in Frameworks */,
+				90F4F4FD1459DB1C00DB2B4E /* CFNetwork.framework in Frameworks */,
+				90F4F4FE1459DB1C00DB2B4E /* CoreFoundation.framework in Frameworks */,
+				90F4F4FF1459DB1C00DB2B4E /* ASIHTTPRequestIOS.framework in Frameworks */,
+				90F4F5001459DB1C00DB2B4E /* UIKit.framework in Frameworks */,
+				90F4F5011459DB1C00DB2B4E /* Foundation.framework in Frameworks */,
+				90F4F5021459DB1C00DB2B4E /* CoreGraphics.framework in Frameworks */,
+				90F4F5031459DB1C00DB2B4E /* CoreData.framework in Frameworks */,
+				90F4F5101459DFB200DB2B4E /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90F4F4AB1459DAE000DB2B4E = {
+			isa = PBXGroup;
+			children = (
+				90F4F4C21459DAE000DB2B4E /* ArcReferenceProject */,
+				90F4F4B91459DAE000DB2B4E /* Frameworks */,
+				90F4F4B71459DAE000DB2B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90F4F4B71459DAE000DB2B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90F4F4B61459DAE000DB2B4E /* ArcReferenceProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90F4F4B91459DAE000DB2B4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90F4F50F1459DFB200DB2B4E /* MobileCoreServices.framework */,
+				90F4F5071459DC6D00DB2B4E /* SystemConfiguration.framework */,
+				90F4F5051459DBB400DB2B4E /* libz.1.2.5.dylib */,
+				90F4F4F61459DB1C00DB2B4E /* CFNetwork.framework */,
+				90F4F4F71459DB1C00DB2B4E /* CoreFoundation.framework */,
+				90F4F4F81459DB1C00DB2B4E /* ASIHTTPRequestIOS.framework */,
+				90F4F4F91459DB1C00DB2B4E /* UIKit.framework */,
+				90F4F4FA1459DB1C00DB2B4E /* Foundation.framework */,
+				90F4F4FB1459DB1C00DB2B4E /* CoreGraphics.framework */,
+				90F4F4FC1459DB1C00DB2B4E /* CoreData.framework */,
+				90F4F4BA1459DAE000DB2B4E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90F4F4C21459DAE000DB2B4E /* ArcReferenceProject */ = {
+			isa = PBXGroup;
+			children = (
+				90F4F5111459E1FB00DB2B4E /* Storage */,
+				90F4F5221459E1FB00DB2B4E /* Parser */,
+				90F4F5271459E1FB00DB2B4E /* Feed Downloader */,
+				90F4F4CB1459DAE000DB2B4E /* AppDelegate.h */,
+				90F4F4CC1459DAE000DB2B4E /* AppDelegate.m */,
+				90F4F4CE1459DAE000DB2B4E /* ArcReferenceProject.xcdatamodeld */,
+				90F4F4C31459DAE000DB2B4E /* Supporting Files */,
+			);
+			path = ArcReferenceProject;
+			sourceTree = "<group>";
+		};
+		90F4F4C31459DAE000DB2B4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F4F5041459DB4200DB2B4E /* LogMacro.h */,
+				90F4F4C41459DAE000DB2B4E /* ArcReferenceProject-Info.plist */,
+				90F4F4C51459DAE000DB2B4E /* InfoPlist.strings */,
+				90F4F4C81459DAE000DB2B4E /* main.m */,
+				90F4F4CA1459DAE000DB2B4E /* ArcReferenceProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90F4F5111459E1FB00DB2B4E /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				90F4F5121459E1FB00DB2B4E /* Article.h */,
+				90F4F5131459E1FB00DB2B4E /* Article.m */,
+				90F4F5141459E1FB00DB2B4E /* DataModel.xcdatamodeld */,
+				90F4F5161459E1FB00DB2B4E /* Image.h */,
+				90F4F5171459E1FB00DB2B4E /* Image.m */,
+				90F4F5181459E1FB00DB2B4E /* Media.h */,
+				90F4F5191459E1FB00DB2B4E /* Media.m */,
+				90F4F51A1459E1FB00DB2B4E /* MSCoreDataInterface.h */,
+				90F4F51B1459E1FB00DB2B4E /* MSCoreDataInterface.m */,
+				90F4F51C1459E1FB00DB2B4E /* Section.h */,
+				90F4F51D1459E1FB00DB2B4E /* Section.m */,
+				90F4F51E1459E1FB00DB2B4E /* SectionOrder.h */,
+				90F4F51F1459E1FB00DB2B4E /* SectionOrder.m */,
+				90F4F5201459E1FB00DB2B4E /* Video.h */,
+				90F4F5211459E1FB00DB2B4E /* Video.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		90F4F5221459E1FB00DB2B4E /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				90F4F5231459E1FB00DB2B4E /* MTStubParser.h */,
+				90F4F5241459E1FB00DB2B4E /* MTStubParser.m */,
+				90F4F5251459E1FB00DB2B4E /* XMLReader.h */,
+				90F4F5261459E1FB00DB2B4E /* XMLReader.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		90F4F5271459E1FB00DB2B4E /* Feed Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				90F4F5281459E1FB00DB2B4E /* MTFeedDownloader.h */,
+				90F4F5291459E1FB00DB2B4E /* MTFeedDownloader.m */,
+			);
+			path = "Feed Downloader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90F4F4B51459DAE000DB2B4E /* ArcReferenceProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F4F4D31459DAE000DB2B4E /* Build configuration list for PBXNativeTarget "ArcReferenceProject" */;
+			buildPhases = (
+				90F4F4B21459DAE000DB2B4E /* Sources */,
+				90F4F4B31459DAE000DB2B4E /* Frameworks */,
+				90F4F4B41459DAE000DB2B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcReferenceProject;
+			productName = ArcReferenceProject;
+			productReference = 90F4F4B61459DAE000DB2B4E /* ArcReferenceProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90F4F4AD1459DAE000DB2B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 90F4F4B01459DAE000DB2B4E /* Build configuration list for PBXProject "ArcReferenceProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90F4F4AB1459DAE000DB2B4E;
+			productRefGroup = 90F4F4B71459DAE000DB2B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90F4F4B51459DAE000DB2B4E /* ArcReferenceProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90F4F4B41459DAE000DB2B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F4F4C71459DAE000DB2B4E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90F4F4B21459DAE000DB2B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F4F4C91459DAE000DB2B4E /* main.m in Sources */,
+				90F4F4CD1459DAE000DB2B4E /* AppDelegate.m in Sources */,
+				90F4F4D01459DAE000DB2B4E /* ArcReferenceProject.xcdatamodeld in Sources */,
+				90F4F52A1459E1FB00DB2B4E /* Article.m in Sources */,
+				90F4F52B1459E1FB00DB2B4E /* DataModel.xcdatamodeld in Sources */,
+				90F4F52C1459E1FB00DB2B4E /* Image.m in Sources */,
+				90F4F52D1459E1FB00DB2B4E /* Media.m in Sources */,
+				90F4F52E1459E1FB00DB2B4E /* MSCoreDataInterface.m in Sources */,
+				90F4F52F1459E1FC00DB2B4E /* Section.m in Sources */,
+				90F4F5301459E1FC00DB2B4E /* SectionOrder.m in Sources */,
+				90F4F5311459E1FC00DB2B4E /* Video.m in Sources */,
+				90F4F5321459E1FC00DB2B4E /* MTStubParser.m in Sources */,
+				90F4F5331459E1FC00DB2B4E /* XMLReader.m in Sources */,
+				90F4F5341459E1FC00DB2B4E /* MTFeedDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90F4F4C51459DAE000DB2B4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F4F4C61459DAE000DB2B4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90F4F4D11459DAE000DB2B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90F4F4D21459DAE000DB2B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90F4F4D41459DAE000DB2B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Current Projects/Mario/ios/Components/CommonFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArcReferenceProject/ArcReferenceProject-Prefix.pch";
+				INFOPLIST_FILE = "ArcReferenceProject/ArcReferenceProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90F4F4D51459DAE000DB2B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Current Projects/Mario/ios/Components/CommonFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArcReferenceProject/ArcReferenceProject-Prefix.pch";
+				INFOPLIST_FILE = "ArcReferenceProject/ArcReferenceProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90F4F4B01459DAE000DB2B4E /* Build configuration list for PBXProject "ArcReferenceProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F4F4D11459DAE000DB2B4E /* Debug */,
+				90F4F4D21459DAE000DB2B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F4F4D31459DAE000DB2B4E /* Build configuration list for PBXNativeTarget "ArcReferenceProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F4F4D41459DAE000DB2B4E /* Debug */,
+				90F4F4D51459DAE000DB2B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90F4F4CE1459DAE000DB2B4E /* ArcReferenceProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90F4F4CF1459DAE000DB2B4E /* ArcReferenceProject.xcdatamodel */,
+			);
+			currentVersion = 90F4F4CF1459DAE000DB2B4E /* ArcReferenceProject.xcdatamodel */;
+			path = ArcReferenceProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		90F4F5141459E1FB00DB2B4E /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90F4F5151459E1FB00DB2B4E /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 90F4F5151459E1FB00DB2B4E /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90F4F4AD1459DAE000DB2B4E /* Project object */;
+}
